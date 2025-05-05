@@ -10,7 +10,16 @@ The rising prevalence of software vulnerabilities highlights the critical need f
 
 # Source
 ## Step1:Code normalization
-
+```
+cd Normalization
+python normalization.py
+```
 ## Step2:Code Explanation Generation 
-
+```
+cd model
+python comment.py
+```
 ## Step3:Train models
+```
+python run.py
+```
