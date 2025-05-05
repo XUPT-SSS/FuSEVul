@@ -164,10 +164,10 @@ def main():
     model = Code_Note(code_model, text_model, 768, 1536, 384)
     model.to(device)
 
-    train_codefile = '../data/small_trvd/small_our_train.csv'
-    train_textfile = '../data/small_trvd/ss_train.csv'
-    eval_codefile = '../data/small_trvd/small_our_val.csv'
-    eval_textfile = '../data/small_trvd/ss_val.csv'
+    train_codefile = '../data/devign/devign_train.csv'
+    train_textfile = '../data/devign/ss_train.csv'
+    eval_codefile = '../data/devign/devign_val.csv'
+    eval_textfile = '../data/devign/ss_val.csv'
 
     # 定义损失函数和优化器
     criterion = torch.nn.CrossEntropyLoss()
