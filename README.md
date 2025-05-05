@@ -7,14 +7,16 @@ The rising prevalence of software vulnerabilities highlights the critical need f
 </div>
 
 # Datasets
-
+The dataset can be downloaded at: https://drive.google.com/file/d/1EU3wztfOpmbQdvZoMDAqtnvSEmLT1iL9/view?usp=sharing
 # Source
 ## Step1:Code normalization
+Normalize source code using normalization.py
 ```
 cd Normalization
 python normalization.py
 ```
 ## Step2:Code Explanation Generation 
+Generate source code explanation using comment.py
 ```
 cd model
 python comment.py
