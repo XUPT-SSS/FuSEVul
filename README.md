@@ -2,7 +2,7 @@
 
 # Design of FuSEVul
 <div align="center">
-  <img src="https://github.com/XUPT-SSS/FuSEVul/blob/master/data/DBSCAN.png">
+  <img src="https://github.com/XUPT-SSS/FuSEVul/blob/main/frame.png">
 </div>
 
 # Datasets
