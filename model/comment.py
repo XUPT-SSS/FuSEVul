@@ -17,7 +17,7 @@ k = len(data_3)
 #k = 0
 #print(data_1[1])gpt-3.5-turbo-0125 gpt-4-0125-preview
 
-q = 'Please describe the functionality of this c program directly:\n'
+q = 'Please explain what the following C/C++ function does and pay attention to any potential security risks in the code:\n'
 dict = {}
 while k < len(data_1):
     rsp = openai.ChatCompletion.create(
